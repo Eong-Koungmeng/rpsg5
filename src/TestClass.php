@@ -1,6 +1,6 @@
 <?php
 
-namespace koungmeng\rpsg5;
+namespace Koungmeng\Rpsg5;
 
 class TestClass
 {

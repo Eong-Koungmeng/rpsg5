@@ -6,8 +6,8 @@
     "autoload": {
         "psr-4": {
             "Koungmeng\\Rpsg5\\": "src/",
-            "VendorName\\PackageName\\Database\\Migrations\\": "src/Database/Migrations/",
-            "VendorName\\PackageName\\Routes\\": "src/Routes/"
+            "Koungmeng\\Rpsg5\\Database\\Migrations\\": "src/Database/Migrations/",
+            "Koungmeng\\Rpsg5\\Routes\\": "src/Routes/"
         }
     },
     "authors": [

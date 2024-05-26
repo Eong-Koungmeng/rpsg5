@@ -11,6 +11,6 @@ php artisan vendor:publish --provider="Koungmeng\Rpsg5\RpsServiceProvider" --tag
 Other commands
 ```
 npm install
-php artisan migrate
+php artisan migrate:fresh
 php artisan serve
 ```

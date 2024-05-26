@@ -18,5 +18,12 @@
     ],
     "require": {
         "illuminate/support": "^11.8"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Koungmeng\\Rpsg5\\RpsServiceProvider"
+            ]
+        }
     }
 }

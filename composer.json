@@ -7,7 +7,7 @@
         "psr-4": {
             "Koungmeng\\Rpsg5\\": "src/",
             "VendorName\\PackageName\\Database\\Migrations\\": "src/Database/Migrations/",
-            "VendorName\\PackageName\\Routes\\": "src/routes/"
+            "VendorName\\PackageName\\Routes\\": "src/Routes/"
         }
     },
     "authors": [

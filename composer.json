@@ -23,5 +23,10 @@
                 "Koungmeng\\Rpsg5\\RpsServiceProvider"
             ]
         }
+    },
+    "scripts": {
+        "post-package-install": [
+            "@php -r \"echo PHP_EOL . 'To publish the package files, run:' . PHP_EOL . 'php artisan vendor:publish --provider=\"LaravelProjectStarter\\\\PackageServiceProvider\" --tag=\"laravel-project-starter\"' . PHP_EOL;\""
+        ]
     }
 }

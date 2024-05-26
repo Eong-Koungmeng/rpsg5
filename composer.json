@@ -26,7 +26,9 @@
     },
     "scripts": {
         "post-package-install": [
-            "@php -r \"echo PHP_EOL . 'To publish the package files, run:' . PHP_EOL . 'php artisan vendor:publish --provider=\"LaravelProjectStarter\\\\PackageServiceProvider\" --tag=\"laravel-project-starter\"' . PHP_EOL;\""
+            "@php -r \"echo PHP_EOL . 'After installing the package, please follow these steps:' . PHP_EOL;\"",
+            "@php -r \"echo '1. Publish the package files:' . PHP_EOL . 'php artisan vendor:publish --provider=\"Koungmeng\\\\Rpsg5\\\\RpsServiceProvider\" --tag=\"rpsg5\"' . PHP_EOL;\"",
+            "@php -r \"echo '2. Run the following commands:' . PHP_EOL . 'npm install' . PHP_EOL . 'php artisan migrate' . PHP_EOL;\""
         ]
     }
 }

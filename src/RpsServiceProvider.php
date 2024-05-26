@@ -9,7 +9,7 @@ class RpsServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__ . '/../stubs' => base_path('/')
-        ], 'laravel-game-starter');
+            __DIR__ . '/stubs' => base_path('/')
+        ], 'Rpsg5');
     }
 }

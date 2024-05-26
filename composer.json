@@ -5,7 +5,9 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Koungmeng\\Rpsg5\\": "src/"
+            "Koungmeng\\Rpsg5\\": "src/",
+            "VendorName\\PackageName\\Database\\Migrations\\": "src/Database/Migrations/",
+            "VendorName\\PackageName\\Routes\\": "src/routes/"
         }
     },
     "authors": [
@@ -14,5 +16,7 @@
             "email": "107832453+Eong-Koungmeng@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/support": "^11.8"
+    }
 }

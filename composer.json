@@ -5,9 +5,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Koungmeng\\Rpsg5\\": "src/",
-            "Koungmeng\\Rpsg5\\Database\\Migrations\\": "src/Database/Migrations/",
-            "Koungmeng\\Rpsg5\\Routes\\": "src/Routes/"
+            "Koungmeng\\Rpsg5\\": "src/"
         }
     },
     "authors": [
